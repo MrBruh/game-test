@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/na/Desktop/Programming/game_test
+CMAKE_SOURCE_DIR = /home/na/Desktop/Programming/game_test/game-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/na/Desktop/Programming/game_test/build
+CMAKE_BINARY_DIR = /home/na/Desktop/Programming/game_test/game-test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/na/Desktop/Programming/game_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/na/Desktop/Programming/game_test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/na/Desktop/Programming/game_test/game-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/na/Desktop/Programming/game_test/game-test/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/na/Desktop/Programming/game_test/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/na/Desktop/Programming/game_test/game-test/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/na/Desktop/Programming/game_test/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/na/Desktop/Programming/game_test/game-test/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/src/main.cpp.o.provides.build: CMakeFiles/main.dir/src/main.
 
 CMakeFiles/main.dir/src/player.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/player.cpp.o: ../src/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/na/Desktop/Programming/game_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/player.cpp.o -c /home/na/Desktop/Programming/game_test/src/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/na/Desktop/Programming/game_test/game-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/player.cpp.o -c /home/na/Desktop/Programming/game_test/game-test/src/player.cpp
 
 CMakeFiles/main.dir/src/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/na/Desktop/Programming/game_test/src/player.cpp > CMakeFiles/main.dir/src/player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/na/Desktop/Programming/game_test/game-test/src/player.cpp > CMakeFiles/main.dir/src/player.cpp.i
 
 CMakeFiles/main.dir/src/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/na/Desktop/Programming/game_test/src/player.cpp -o CMakeFiles/main.dir/src/player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/na/Desktop/Programming/game_test/game-test/src/player.cpp -o CMakeFiles/main.dir/src/player.cpp.s
 
 CMakeFiles/main.dir/src/player.cpp.o.requires:
 
@@ -105,19 +105,65 @@ CMakeFiles/main.dir/src/player.cpp.o.provides: CMakeFiles/main.dir/src/player.cp
 CMakeFiles/main.dir/src/player.cpp.o.provides.build: CMakeFiles/main.dir/src/player.cpp.o
 
 
+CMakeFiles/main.dir/src/window.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/window.cpp.o: ../src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/na/Desktop/Programming/game_test/game-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/window.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/window.cpp.o -c /home/na/Desktop/Programming/game_test/game-test/src/window.cpp
+
+CMakeFiles/main.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/na/Desktop/Programming/game_test/game-test/src/window.cpp > CMakeFiles/main.dir/src/window.cpp.i
+
+CMakeFiles/main.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/na/Desktop/Programming/game_test/game-test/src/window.cpp -o CMakeFiles/main.dir/src/window.cpp.s
+
+CMakeFiles/main.dir/src/window.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/src/window.cpp.o.requires
+
+CMakeFiles/main.dir/src/window.cpp.o.provides: CMakeFiles/main.dir/src/window.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/window.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/window.cpp.o.provides
+
+CMakeFiles/main.dir/src/window.cpp.o.provides.build: CMakeFiles/main.dir/src/window.cpp.o
+
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
-"CMakeFiles/main.dir/src/player.cpp.o"
+"CMakeFiles/main.dir/src/player.cpp.o" \
+"CMakeFiles/main.dir/src/window.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/src/player.cpp.o
+main: CMakeFiles/main.dir/src/window.cpp.o
 main: CMakeFiles/main.dir/build.make
+main: external/glfw-3.1.2/src/libglfw3.a
+main: external/libGLEW_1130.a
+main: /usr/lib/x86_64-linux-gnu/librt.so
+main: /usr/lib/x86_64-linux-gnu/libm.so
+main: /usr/lib/x86_64-linux-gnu/libX11.so
+main: /usr/lib/x86_64-linux-gnu/libXrandr.so
+main: /usr/lib/x86_64-linux-gnu/libXinerama.so
+main: /usr/lib/x86_64-linux-gnu/libXi.so
+main: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+main: /usr/lib/x86_64-linux-gnu/libXcursor.so
+main: /usr/lib/x86_64-linux-gnu/libGL.so
+main: /usr/lib/x86_64-linux-gnu/librt.so
+main: /usr/lib/x86_64-linux-gnu/libm.so
+main: /usr/lib/x86_64-linux-gnu/libX11.so
+main: /usr/lib/x86_64-linux-gnu/libXrandr.so
+main: /usr/lib/x86_64-linux-gnu/libXinerama.so
+main: /usr/lib/x86_64-linux-gnu/libXi.so
+main: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+main: /usr/lib/x86_64-linux-gnu/libXcursor.so
+main: /usr/lib/x86_64-linux-gnu/libGL.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/na/Desktop/Programming/game_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/na/Desktop/Programming/game_test/game-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +173,7 @@ CMakeFiles/main.dir/build: main
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/main.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/player.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/window.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 
@@ -135,6 +182,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/na/Desktop/Programming/game_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/na/Desktop/Programming/game_test /home/na/Desktop/Programming/game_test /home/na/Desktop/Programming/game_test/build /home/na/Desktop/Programming/game_test/build /home/na/Desktop/Programming/game_test/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/na/Desktop/Programming/game_test/game-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/na/Desktop/Programming/game_test/game-test /home/na/Desktop/Programming/game_test/game-test /home/na/Desktop/Programming/game_test/game-test/build /home/na/Desktop/Programming/game_test/game-test/build /home/na/Desktop/Programming/game_test/game-test/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

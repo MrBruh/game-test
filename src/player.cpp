@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Player::player::do_something()
+void player::do_something()
 {
     cout << "Doing something!" << endl;
 }

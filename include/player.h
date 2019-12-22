@@ -1,15 +1,11 @@
-#ifndef MY_CLASS_H
-#define MY_CLASS_H
+#ifndef PLAYER_H
+#define PLAYER_H
 
-
-namespace Player
+class player
 {
-	class player
-	{
-		public:
-			void do_something();
+	public:
+		void do_something();
 
-	};
-}
+};
 
 #endif
