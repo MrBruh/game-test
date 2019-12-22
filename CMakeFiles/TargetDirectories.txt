@@ -1,0 +1,3 @@
+/home/na/Desktop/Programming/game_test/CMakeFiles/rebuild_cache.dir
+/home/na/Desktop/Programming/game_test/CMakeFiles/main.dir
+/home/na/Desktop/Programming/game_test/CMakeFiles/edit_cache.dir
